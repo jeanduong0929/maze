@@ -82,7 +82,7 @@ public class MazeSolver {
         while (!noMoreSteps) {
             step(stack, queue);
 
-            if (goalReached) {
+            if (goalReached || stack.isEmpty() || queue.isEmpty()) {
                 System.out.println();
                 noMoreSteps = true;
                 continue;
