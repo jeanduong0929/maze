@@ -1,4 +1,4 @@
-package com.jean.maze;
+package com.revature.maze;
 
 import java.io.IOException;
 import java.io.InputStream;

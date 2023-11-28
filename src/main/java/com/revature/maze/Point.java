@@ -1,4 +1,4 @@
-package com.jean.maze;
+package com.revature.maze;
 
 public class Point {
     private int x;
