@@ -105,9 +105,9 @@ public class MazeSolver {
     /* ==================== HELPER FUNCTIONS ==================== */
 
     private void step(Stack<Point> stack, Queue<Point> queue) {
-        if (method.equals("s")) {
+        if (method.equalsIgnoreCase("s")) {
             stackDFS(stack);
-        } else if (method.equals("q")) {
+        } else if (method.equalsIgnoreCase("q")) {
             queueBFS(queue);
         }
     }
