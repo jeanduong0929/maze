@@ -13,7 +13,7 @@ public class MazeApplication {
     exitFilename: {
       while (true) {
         clearScreen();
-        System.out.print("Please enter a maze filename: ");
+        System.out.print("Please enter a maze filename (you can find the files in 'src/main/resources/files/'): ");
         filename = scan.nextLine();
         if (!fileExist(filename)) {
           clearScreen();
